@@ -41,4 +41,4 @@ class Tariff(BaseModel):
     count: Dict[int, int]
     days: Dict[int, int]
     extend: int
-    confirm: Optional[bool]
+    confirm: Optional[bool] = None
