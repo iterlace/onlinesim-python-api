@@ -39,6 +39,6 @@ class Tariff(BaseModel):
     new: bool
     position: int
     count: Dict[int, int]
-    days: Dict[int, int]
+    days: Dict[int, float]
     extend: int
     confirm: Optional[bool] = None
